@@ -18,9 +18,9 @@ import CoreGraphics
 
 open class PieChartRenderer: DataRenderer
 {
-    @objc open weak var chart: PieChartView?
+    @objc open weak var chart: ChartsPieChartView?
 
-    @objc public init(chart: PieChartView, animator: Animator, viewPortHandler: ViewPortHandler)
+    @objc public init(chart: ChartsPieChartView, animator: Animator, viewPortHandler: ViewPortHandler)
     {
         super.init(animator: animator, viewPortHandler: viewPortHandler)
 
@@ -883,7 +883,7 @@ open class PieChartRenderer: DataRenderer
     /// Creates an NSUIAccessibilityElement representing a slice of the PieChart.
     /// The element only has it's container and label set based on the chart and dataSet. Use the modifier to alter traits and frame.
     private func createAccessibleElement(withIndex idx: Int,
-                                         container: PieChartView,
+                                         container: ChartsPieChartView,
                                          dataSet: IPieChartDataSet,
                                          modifier: (NSUIAccessibilityElement) -> ()) -> NSUIAccessibilityElement {
 

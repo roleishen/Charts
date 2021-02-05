@@ -11,7 +11,7 @@ import Charts
 
 class HalfPieChartViewController: DemoBaseViewController {
 
-    @IBOutlet var chartView: PieChartView!
+    @IBOutlet var chartView: ChartsPieChartView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

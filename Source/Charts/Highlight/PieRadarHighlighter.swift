@@ -30,7 +30,7 @@ open class PieRadarHighlighter: ChartHighlighter
 
         var angle = chart.angleForPoint(x: x ,y: y)
 
-        if chart is PieChartView
+        if chart is ChartsPieChartView
         {
             angle /= CGFloat(chart.chartAnimator.phaseY)
         }

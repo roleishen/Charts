@@ -11,7 +11,7 @@ import Charts
 
 class PiePolylineChartViewController: DemoBaseViewController {
 
-    @IBOutlet var chartView: PieChartView!
+    @IBOutlet var chartView: ChartsPieChartView!
     @IBOutlet var sliderX: UISlider!
     @IBOutlet var sliderY: UISlider!
     @IBOutlet var sliderTextX: UITextField!

@@ -14,7 +14,7 @@ import Charts
 
 open class PieDemoViewController: NSViewController
 {
-    @IBOutlet var pieChartView: PieChartView!
+    @IBOutlet var pieChartView: ChartsPieChartView!
     
     override open func viewDidLoad()
     {

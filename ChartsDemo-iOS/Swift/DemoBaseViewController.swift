@@ -231,7 +231,7 @@ class DemoBaseViewController: UIViewController, ChartViewDelegate {
         fatalError("updateChartData not overridden")
     }
     
-    func setup(pieChartView chartView: PieChartView) {
+    func setup(pieChartView chartView: ChartsPieChartView) {
         chartView.usePercentValuesEnabled = true
         chartView.drawSlicesUnderHoleEnabled = false
         chartView.holeRadiusPercent = 0.58
